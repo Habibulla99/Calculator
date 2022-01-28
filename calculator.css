@@ -1,0 +1,51 @@
+*{ padding: 0;
+   margin:0;
+   }
+h1 { text-align: center;
+     font-weight: bold;
+     font-size: 55px;
+     color:#E5A79C;
+     margin-top:55px; }
+
+.card{ margin: 0 auto;
+	   margin-top: 15px;
+	   flex-wrap: wrap;
+	   text-align: center;
+	   max-width: 450px;
+	   max-height: 1000px;
+	   border:5px solid #1A8E88;
+       box-shadow: 5px 5px 5px #000080;
+       background-color: #C06666;}
+
+.calc-head > .head-box{ width:400px;
+       height:80px;
+       font-weight: bold;
+       letter-spacing:4px;
+       margin-top: 5px;
+       padding:10px;
+       text-align: right;
+       font-size: 50px;
+       border: 5px solid #7FFF00;
+       background-color: #000000;
+       color:#DC143C;}
+
+.calc-body { 
+        }
+.button{ width:100px;
+         height:50px;
+         margin-top: 10px;
+         margin-left: 5px;
+         background-color: #B22222;
+         text-align: center;
+         color:white;
+         font-weight: bold;
+         font-size: 20px;
+         }
+
+.ses{ margin-bottom: 5px;
+       }
+
+.card:hover { box-shadow:15px 15px 15px #000080;   }
+
+.button:hover { background-color: #00008B;
+                box-shadow: 4px 4px 4px white; }
